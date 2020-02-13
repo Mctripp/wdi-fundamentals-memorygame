@@ -42,6 +42,11 @@ main {
 }
 img {
 	margin: 40px 8px 0 8px;
+	border: 2px solid white;
+}
+img:hover {
+	border: 2px solid #0d2c40;
+	border-radius: 9px;
 }
 footer {
 	text-decoration: uppercase;
@@ -71,8 +76,16 @@ footer {
 	font-weight: 700;
 }
 a {
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
 	border-bottom: 2px solid transparent;
+	display: inline-block;
 }
 a:hover {
-	border-color: white;
+	border-color: #F15B31;
+	color: #F15B31;
+}
+#game-state {
+	font-size: 24px;
 }
